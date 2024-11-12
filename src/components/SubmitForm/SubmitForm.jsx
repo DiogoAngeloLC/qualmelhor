@@ -1,5 +1,3 @@
-import React from "react";
-
 const SubmitForm = () => {
   return (
     <div className="container flex flex-col items-center gap-4">

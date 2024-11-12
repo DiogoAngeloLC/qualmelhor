@@ -30,6 +30,9 @@ const Stepper = ({ currentStep }) => {
                 className={`hidden sm:block sm:absolute sm:left-14 sm:h-[6px] sm:rounded sm:w-24 ${getProgressColor(
                   step
                 )}`}
+                style={{
+                  transition: "width 0.5s ease-in-out, background-color 0.5s ease-in-out",
+                }}
               ></div>
             )}
           </div>
